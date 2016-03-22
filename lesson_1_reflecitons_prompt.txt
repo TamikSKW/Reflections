@@ -1,0 +1,52 @@
+the diff command in the shell allowed me to look line by line to see
+where each change happened.  It allowed me to find a minor difference
+between two sets of code if not finding the exact change.
+
+Prompt - How could having easy access to the entire history of a file
+make you a more efficient programmer in the long term?
+
+You can easily see which changes happened in relation to problems 
+arising and from there being able pinpoint exactly what caused the 
+problem.
+
+What do you think are the pros and cons of manually choosing when to 
+create a commit, like you do in Git, vs having versions automatically 
+saved, like Google Docs does?
+
+Being able to manually commit will be easier to describe what changes
+were made, whereas automatically you will always have a backup, even
+if you don't know exactly which comitt you need it will be there.  I
+think that haveing a combination of both would be a great way to ensure
+that you always have a good copy of the program.
+
+Why do you think some version control systems, like Git, allow saving 
+multiple files in one commit, while others, like Google Docs, treat 
+each file separately?
+
+When doing programming, like what git is made for, a lot of files will 
+rely on other files.  This makes it important to know when are where
+changes occured, since they can have an impact elsewhere in the project.
+When doing basic documents its rare that changes in one place will 
+affect another, so its not necessary to track inter-related changes.
+
+How can you use the commands git log and git diff to view the history of files?
+
+Git log will let you find the commit where specific changes happened,
+then you can use git diff to find the specific changes line by line.
+You can also use 'git log --stat'  to get a quick look at how many 
+lines where changed between commits.
+
+How might using version control make you more confident to make changes 
+that could break something?
+
+Even if you make a change that breaks something you can always go back
+to a point before the bug or break was introduced.  Or using git diff 
+you may even be able to find where the bug was introduced and fix the
+change to work without the bug.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+Git is something I want to use for all my future programming projects and
+the rest of the projects in this class.  I'm excited to see how to setup
+a new repository so I can quickly get into using git early into each
+project.
