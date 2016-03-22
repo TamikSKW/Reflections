@@ -13,3 +13,36 @@ the repository is about what is being tracked.  The staging area allows
 you to work with many files in the current state and decide what needs to
 be added into the repository for everyone, versus things you only need on
 a single machine.
+
+How can you use the staging area to make sure you have one commit per 
+logical change?
+
+Using git diff --staged you can see all the changes you are currently
+adding within the working directory.  This lets you check each change 
+you are about to commit.  You can make several changes before you commit
+and when you are going to make your commit you can ensure that you are 
+only adding files from the same logical change.
+
+What are some situations when branches would be helpful in keeping your 
+history organized? How would branches help?
+
+When you are trying out new features it would be a great help to keep a
+working version of the code so you can compare if the feature is 
+working as you want it to or if it will not be a good feature.  
+Whichever result you have a good version of the program to go back to.
+
+How do the diagrams help you visualize the branch structure?
+
+They give you an idea of how different commits relate to eachother, and
+where you would have to go to see different commits.  Having the divide
+between the branches gives you an understanding of how different the 
+branches can be.
+
+What is the result of merging two branches together? Why do we 
+represent it in the diagram the way we do?
+
+Merging the two branches gives us access to all of the history of where 
+each feature was added. It lets us see exactly how to continue adding 
+new features in the same style that we are already using.  It shows up
+as a quadrilateral in the diagram because it combines two disparate
+lines of history.
