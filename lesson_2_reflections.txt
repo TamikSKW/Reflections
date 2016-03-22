@@ -46,3 +46,12 @@ each feature was added. It lets us see exactly how to continue adding
 new features in the same style that we are already using.  It shows up
 as a quadrilateral in the diagram because it combines two disparate
 lines of history.
+
+What are the pros and cons of Git’s automatic merging vs. always doing 
+merges manually?
+
+Git can do a lot of the minor changes and unrelated changes for you.
+This lets you focus on resolving just the changes that conflict with one
+another rather than having to do the tedious work.  However if changes 
+appear to be unrelated and git does not realize they are related this 
+may cause some bugs down the road.
