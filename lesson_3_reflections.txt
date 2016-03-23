@@ -10,3 +10,7 @@ have put into a project because of a stupid mistake.
 Why might you want to always pull changes manually rather than having 
 Git automatically stay up-to-date with your remote repository?
 
+If two people were working on the same branch at the same time it may
+require some conflict resolution.  You may want to finish your part 
+before you pull the changes to be sure that there will be a smoother
+transition to the fully up to date code.
