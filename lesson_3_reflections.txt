@@ -1,0 +1,6 @@
+When would you want to use a remote repository rather than keeping all your work local?
+
+The remote repository keeps a backup of your work so that if you were to lose your local work
+for some reason you will be able to get it back.  Its partially so you can share your work
+easier and part for redundancy.  It is a horrifying idea losing all the work and hours you
+have put into a project because of a stupid mistake.
