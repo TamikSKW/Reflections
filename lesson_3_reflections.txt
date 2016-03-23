@@ -14,3 +14,17 @@ If two people were working on the same branch at the same time it may
 require some conflict resolution.  You may want to finish your part 
 before you pull the changes to be sure that there will be a smoother
 transition to the fully up to date code.
+
+Describe the differences between forks, clones, and branches. When 
+would you use one instead of another?
+
+Forks and clones are nearly identical except where they actually exist.
+Forks are on github, they are stored remotely and cannot be edited 
+except by pushing from a local repository.  Branches are when you want
+an independant copy of your files to make experimental changes that you
+do not want represented on your master branch.  You keep a clone of the 
+repository on your local machine, and you can fork someone's repository
+if you want to add or change something from their project without
+having permission to change the project directly.  You make branches 
+within your project to test changes before commiting them to the 
+master.
