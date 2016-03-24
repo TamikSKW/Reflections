@@ -37,3 +37,13 @@ are merging.  You can know who made changes to files when and be able
 to resolve conflicts by being able to find the differences before and
 after fetching the remote.  It also allows you to keep track while 
 being offline.
+
+How would you collaborate without using Git or GitHub? What would be 
+easier, and what would be harder?
+
+You could just send files to eachother through something like dropbox.
+Merging changes would be a lot harder, you would have to download a 
+copy and figure out what changes there were and combine the edits on 
+your local copy.  It may be easier for someone not looking to make 
+changes to get the project, but I can't see not using source code
+control being easier for actual development.
