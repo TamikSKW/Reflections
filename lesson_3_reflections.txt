@@ -47,3 +47,16 @@ copy and figure out what changes there were and combine the edits on
 your local copy.  It may be easier for someone not looking to make 
 changes to get the project, but I can't see not using source code
 control being easier for actual development.
+
+When would you want to make changes in a separate branch rather than 
+directly in master? What benefits does each approach have?
+
+Once you have the core system working in master, you want to make a new
+branch for any new feature or bug fix you add.  This allows the whole 
+team to work on different features or problems without breaking the 
+master that you are all basing off from.  Making changes directly in 
+master will allow you to just keep a simple history of every change, 
+but it leaves you vulnerable to any major bugs you simply have to work
+off an older version of master or make a branch from an old version.
+In short it would take a lot longer to incorporate changes from other
+branches if most of the work is being done in master.
